@@ -14,9 +14,6 @@ function ApplicantDashboard(props) {
     </div>
   );
 }
-
-const MainPage = () => {
-  return <div>Main Page</div>;
-};
+ 
 
 export default ApplicantDashboard;

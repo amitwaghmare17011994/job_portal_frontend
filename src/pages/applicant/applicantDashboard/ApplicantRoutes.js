@@ -4,12 +4,13 @@ import Home from "../../home";
 import Profile from "../../Profile";
 import { ErrorPage } from "../../Welcome";
 import Applications from "../applications";
+import Dashboard from "../dashboard";
 
 function ApplicantRoutes() {
   return (
     <Switch>
       <Route exact path={"/dashboard/"}>
-        <MainPage />
+        <Dashboard />
       </Route>
       <Route path={"/dashboard/applications"}>
         <Applications />

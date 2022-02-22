@@ -23,11 +23,11 @@ background-color:#f5f6fa;
   position: absolute;
   background-color: #3f199c;
   height: 50px;
-  width: 50px;
+  width: 51px;
   top: -60px;
   right: -10px;
   z-index:11;
-  border-bottom-right-radius: 80px; 
+  border-bottom-right-radius: 40px ; 
   }
 
 
@@ -65,7 +65,7 @@ background-color:#f5f6fa;
   bottom: -60px;
   right: -10px;
   z-index:11;
-  border-top-right-radius: 80px; 
+  border-top-right-radius: 40px ; 
   }
 
 
@@ -93,8 +93,8 @@ background-color:#f5f6fa;
 
 
    background-color:#f5f6fa;
-   border-top-left-radius:10px;
-   border-bottom-left-radius:10px;
+   border-top-left-radius:50px;
+   border-bottom-left-radius:50px;
 
 
    `:``
