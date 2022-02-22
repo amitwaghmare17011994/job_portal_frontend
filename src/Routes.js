@@ -16,7 +16,7 @@ import Signup from "./pages/Signup";
 import Welcome, { ErrorPage } from "./pages/Welcome";
 
 const Middleware = () => {
-  return <Redirect to="/dashboard" />;
+  return <Redirect to="/dashboard/" />;
 };
 
 function Routes() {
@@ -25,7 +25,7 @@ function Routes() {
       <Route exact path={"/"}>
         <Middleware/>
       </Route>
-      <Route path="/dashboard">
+      <Route path="/dashboard/">
         {userType() === "recruiter" ? <Welcome /> : <ApplicantDashboard />}
       </Route>
       <Route exact path="/login">

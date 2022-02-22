@@ -13,12 +13,13 @@ function Flex(props) {
     left = 0,
     style = {},
     onClick,
+    className
   } = props;
-  console.log();
+   
   const classes = useStyles();
   return (
     <div
-      className={classes.container}
+      className={`${classes.container} ${className}`}
       style={{
         flex: flex,
         flexDirection: direction,

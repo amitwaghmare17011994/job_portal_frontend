@@ -26,6 +26,7 @@ const useStyles = makeStyles((theme) => ({
     textTransform: "uppercase",
   },
   jobTileOuter: {
+    borderRadius:10,
     padding: "30px",
     margin: "20px 0",
     boxSizing: "border-box",

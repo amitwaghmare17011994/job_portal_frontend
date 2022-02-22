@@ -15,23 +15,23 @@ export const colorSet = {
 };
 
 export const APPLICANT_DASHBOARD_ITEMS = {
-  Dashboard: {
+  "/dashboard/": {
     title: "Dashboard",
     url: "/dashboard/",
     icon: (props) => <Dashboard {...props} />,
   },
-  Application: {
+  "/dashboard/applications": {
     title: "Applications",
     url: "/dashboard/applications",
     icon: (props) => <Work {...props} />,
   },
-  Search:{
+  "/dashboard/search":{
     title:'Search',
     url:'/dashboard/search',
     icon: (props) => <Search {...props} />,
 
   },
-  Profile:{
+  "/dashboard/profile":{
     title:'Profile',
     url:'/dashboard/profile',
     icon: (props) => <Profile {...props} />,
